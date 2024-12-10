@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    background-color: bisque;
+    width: 1100px;
+    height: 390px;
+}
+.box, .box1, .box2, .box3{
+    width: 250px;
+    height: 350px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+}
+.box{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+button{
+border-radius: 30px;
+padding: 10px 40px;
+font-size: 16px;
+background-color: rgb(244, 96, 96);
+border:none;
+margin:35px;
+margin-left: 40px;
+display: inline-block;
+position: relative;
+top: 50px;
+}
+.a{
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 80px;
+    top: 50px;
+    border-radius:50%;
+    background-color:hsl(350,39%,91%);
+    color: red;
+}
+.a:hover{
+    background-color: red;
+    color: white;
+}
+.a>i{
+    text-align: center;
+font-size: 50px;
+margin-left: 20px;
+
+}
+.b{
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 80px;
+    top: 50px;
+    border-radius:50%;
+    background-color:hsl(350,39%,91%);
+    color: red;
+}
+.b:hover{
+    background-color: red;
+    color: white;
+}
+.b>i{
+    text-align: center;
+font-size: 50px;
+margin-left: 20px;
+
+}
+.c{
+    width: 90px;
+    height: 90px;
+    /* border: 1px solid red; */
+    position: relative;
+    left: 80px;
+    top: 50px;
+    border-radius:50%;
+    background-color:hsl(350,39%,91%);
+    color: red;
+}
+.c:hover{
+    background-color: red;
+    color: white;
+}
+.c>i{
+    text-align: center;
+font-size: 50px;
+margin-left: 20px;
+
+}
+h3{
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+p{
+    position: relative;
+    top: 80px;
+}
